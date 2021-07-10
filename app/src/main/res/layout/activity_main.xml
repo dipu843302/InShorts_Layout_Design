@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#313236"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="17.25dp"
+            android:layout_height="16.69dp"
+            android:layout_marginTop="16.65dp"
+            android:layout_marginLeft="13.5dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="21dp"
+            android:text="Smoking"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="55dp"/>
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:layout_marginTop="14sp"
+            android:layout_marginLeft="160dp"/>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:src="@drawable/cigarette_buts_istock_1" />
+
+        <ImageView
+            android:layout_width="18.25dp"
+            android:layout_height="19.25dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="144dp"
+            android:src="@drawable/ic_baseline_share_24" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Punjab 1st in India to Ban Cigarette"
+            android:textSize="15sp"
+             android:textStyle="bold"
+            android:id="@+id/tv1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="42dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cigarette"
+            android:layout_marginTop="23dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="42dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="49dp"
+            android:text="Your smoke is also bad for other people - they breathe in your smoke secondhand and can get many of the same problems as smokers do. This includes heart disease and lung cancer. Children exposed to secondhand smoke have a higher risk of ear infections, colds, pneumonia, bronchitis, and more severe asthma. Mothers who breathe secondhand smoke while pregnant are more likely to have preterm labor and babies with low birth weight."
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#313236"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="16dp"
+            android:text="Published at 12:00 pm "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
